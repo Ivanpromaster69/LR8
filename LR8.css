@@ -161,6 +161,6 @@ button:hover {
         height: 15px;
     }
     body{
-        background-repeat: repeat; 
+        background-repeat: no-repeat; 
     }
 }
