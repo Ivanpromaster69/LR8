@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "LR8.css">
+    <title>LR8</title>
+</head>
+<body>
+<input type="text" id="inputName" placeholder="Ваше ім'я">
+<button onclick="gameStart()">Start Game</button>
+<button onclick="resetGame()">Restart Game</button>
+<div class="contentContainer">
+    <div class="innerContainer">
+        <div class="headText" id="playerName">NoName</div>
+        <div class="num" id="player"></div>
+        <div class="headText">Points</div>
+        <div class="num" id="countPlayer"></div>
+    </div>
+    <div id="resGame"></div>
+    <div class="innerContainer">
+        <div class="headText">Computer</div>
+        <div class="num" id="computer"></div>
+        <div class="headText">Points</div>
+        <div class="num" id="countComputer"></div>
+    </div>
+</div>
+<script src="LR8.js"></script>
+</body>

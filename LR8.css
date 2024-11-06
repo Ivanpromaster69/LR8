@@ -1,0 +1,166 @@
+body {
+    background-image: url("Game-fon.png");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#inputName {
+    margin: 1%;
+    padding: 10px;
+    border: 2px solid #ff8400;
+    border-radius: 5px;
+    width: 250px;
+    height: 30px;
+    font-size: 26px;
+    transition: border-color 0.3s;
+}
+#inputName:focus {
+    border-color: #a4b300; 
+    outline: none;
+}
+
+button {
+    margin: 1%;
+    padding: 10px 15px;
+    background-color: #ff8400;
+    color: white;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #b15b00;
+}
+.contentContainer{
+    margin-top: 5%;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.innerContainer{
+    background-color: aliceblue;
+    height: 100%;
+    width: 250px;
+    border-radius: 30px;
+    padding: 2%;
+    background-color: #ff8400;
+    border: 2px solid #000000;
+}
+#resGame{
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #ff8400;
+    width: 250px;
+    height: 100px;
+    border-radius: 30px;
+    border: 2px solid #000000;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+.headText{
+    height: 70px;
+    width: 100%;
+    color: aliceblue;
+    font-size: 40px;
+    text-align: center;
+}
+.num{
+    height: 70px;
+    margin-bottom: 5%;
+    width: 100%;
+    color: aqua;
+    font-size: 60px;
+    text-align: center;
+}
+@media (max-width: 900px) {
+    #inputName {
+        width: 70%;
+        font-size: 22px; 
+    }
+
+    button {
+        width: 70%; 
+        font-size: 20px; 
+    }
+
+    .contentContainer {
+        flex-direction: row; 
+        align-items: flex-start; 
+        gap: 20px; 
+    }
+
+    .innerContainer {
+        width: 40%; 
+        min-width: 200px; 
+    }
+
+    #resGame {
+        width: 70%; 
+        font-size: 18px; 
+    }
+
+    .headText {
+        font-size: 32px; 
+    }
+
+    .num {
+        font-size: 50px; 
+    }
+    body{
+        background-repeat: repeat; 
+    }
+}
+
+@media (max-width: 600px) {
+    #inputName {
+        width: 90%; 
+        font-size: 20px; 
+    }
+
+    button {
+        width: 90%; 
+        font-size: 18px; 
+    }
+
+    .contentContainer {
+        flex-direction: column; 
+        align-items: center; 
+        height: 100px;
+        margin-top: 24%;
+    }
+
+    .innerContainer {
+        width: 90%; 
+        margin-bottom: 10px; 
+    }
+
+    #resGame {
+        width: 90%; 
+        font-size: 10px; 
+    }
+
+    .headText {
+        font-size: 15px; 
+        height: 15px;
+    }
+
+    .num {
+        font-size: 20px; 
+        height: 15px;
+    }
+    body{
+        background-repeat: repeat; 
+    }
+}
