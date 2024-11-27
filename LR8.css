@@ -84,6 +84,20 @@ button:hover {
     font-size: 60px;
     text-align: center;
 }
+.return{
+    background-image: url("gameFon.avif");
+    color: aliceblue;
+    border: 2px solid aliceblue;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    width: 200px;
+}
+.return:hover{
+    border: 2px solid green;
+}
+.return:active{
+    border: 2px solid red;
+}
 @media (max-width: 900px) {
     #inputName {
         width: 70%;
@@ -162,5 +176,8 @@ button:hover {
     }
     body{
         background-repeat: repeat; 
+    }
+    .return{
+        margin-top: 110px;
     }
 }
